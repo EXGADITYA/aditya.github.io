@@ -32,4 +32,5 @@ document.querySelector('.again').addEventListener('click', function(){
     document.querySelector('.unknown').textContent="?";
     document.querySelector('.score').textContent=0;
     document.querySelector('.numb').value=0;
+    const num1 = Math.round(Math.random()*20)+1;
 })
